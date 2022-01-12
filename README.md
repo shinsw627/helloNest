@@ -1,8 +1,9 @@
-### nest.js 연습용 프로젝트입니다.
+# nest.js 연습용 프로젝트입니다.
 
-## HttpExceptionFilter 를 활용한 error 처리
+### HttpExceptionFilter 를 활용한 error 처리
 ![http-exception.filter.ts](https://user-images.githubusercontent.com/46738141/149069387-dddb3a34-0c67-4813-afa0-7f632f2d4dde.png)
-## pipe를 이용한 요정 데이터 유효성 검사 및 변환 수행
+
+### pipe를 이용한 요정 데이터 유효성 검사 및 변환 수행
 ![image](https://user-images.githubusercontent.com/46738141/149069343-64af1d31-f068-496d-b95a-157ae9347cbe.png)
 
 
