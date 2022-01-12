@@ -5,5 +5,8 @@
 
 ### pipe를 이용한 요정 데이터 유효성 검사 및 변환 수행
 
+### request의 lifecycle
+![image](https://user-images.githubusercontent.com/46738141/149090415-b7ddcef3-1175-4de3-ad0a-c3f94cc6a863.png)
+
 
 
