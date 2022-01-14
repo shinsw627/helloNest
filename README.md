@@ -1,5 +1,7 @@
 # nest.js 연습용 프로젝트입니다.
 
+## todo 왜 이것들을 사용했는지 각각 적을 것.
+
 ### HttpExceptionFilter 를 활용한 error 처리
 ![http-exception.filter.ts](https://user-images.githubusercontent.com/46738141/149394900-3f80dd03-4b12-40cb-bd68-7a56fb0d5c8b.png)
 
