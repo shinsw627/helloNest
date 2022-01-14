@@ -26,3 +26,34 @@
 
 ### schema class를 활용하여 재사용성 확보 및 PickType을 이용한 원하는 정보만을 extends 하도록 구현
 ![image](https://user-images.githubusercontent.com/46738141/149515502-883b42f9-f781-43b3-9034-99d4a6d7150f.png)
+
+### Repository pattern을 활용
+
+
+![image](https://user-images.githubusercontent.com/46738141/149536103-4dcd832c-93b6-4388-a558-4cd875248df5.png)
+
+비즈니스 로직은 프로그램의 핵심이 되는 요소이며, 비즈니스 로직을 잘 짜야 원하는 결과를 올바르게 도출할 수 있다. 이때 비즈니스 로직은 보통 데이터베이스나 웹서비스 등의 데이터 저장소에 접근하게 되는데 이 과정에서 여러 문제가 발생할 수 있다. 주로 중복되는 코드, 오류를 발생할 가능성이 있는 코드, 오타, 비즈니스 로직 테스트의 어려움 등이 있다.
+
+![image](https://user-images.githubusercontent.com/46738141/149536434-2f951a49-3e68-44e2-a9e4-2b33319b88be.png)
+
+repository pattern 사용 이유
+(1) 데이터가 있는 여러 저장소(Local Data Source, Remote Data Source)를 추상화하여 중앙 집중 처리 방식을 구현할 수 있다.
+
+(2) 데이터를 사용하는 Domain에서는 비즈니스 로직에만 집중할 수 있다.
+예를 들어, ViewModel에서는 데이터가 로컬 DB에서 오는지, 서버에서 API 응답을 통해 오는 것인지 출처를 몰라도 된다. Repository를 참조하여 Repository가 제공해주는 데이터를 이용하기만 하면 된다.
+
+(3) Repository가 추상화되어 있으므로 항상 같은 Interface로 데이터를 요청할 수 있다.
+ViewModel이 여러 Repository를 공유하더라도 일관된 Interface를 통해 데이터의 일관성 또한 유지할 수 있다.
+
+장점
+(1) 데이터 로직과 비즈니스 로직을 분리할 수 있다
+
+(2) Domain에서는 일관된 인터페이스를 통해 데이터를 요청할 수 있다.
+
+(3) 데이터 저장소의 데이터를 캡슐화할 수 있다. 객체지향적인 프로그래밍에 더 적합하다.
+
+(4) 단위 테스트를 통한 검증이 가능하다.
+
+(5) 객체 간의 결합도가 감소한다.
+
+(6) 어플리케이션의 전체적인 디자인이 바뀌더라도 적용할 수 있는 유연한 아키텍쳐이다.
