@@ -13,7 +13,7 @@
 
 
 ### Class Validator
-![image](https://user-images.githubusercontent.com/46738141/149394359-6edbf1c1-1b8e-403f-be6d-02fe77b82a68.png)
+![image](https://user-images.githubusercontent.com/46738141/149461726-36676a3b-4c93-49b6-b4aa-a7c12f35e7c3.png)
 
 ### Class Validator를 활용한 dto validation
 ![image](https://user-images.githubusercontent.com/46738141/149458101-6144485a-dca8-4578-8922-9968531645f5.png)
