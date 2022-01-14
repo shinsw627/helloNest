@@ -16,4 +16,4 @@
 ![image](https://user-images.githubusercontent.com/46738141/149394359-6edbf1c1-1b8e-403f-be6d-02fe77b82a68.png)
 
 ### Nest.js design pattern
-![image](https://user-images.githubusercontent.com/46738141/149457509-b3570328-9edf-4819-973e-51fb08598c17.png)
+![Nest.js design pattern](https://user-images.githubusercontent.com/46738141/149457626-2605d845-37a4-4dd8-8ef2-cbee434138bc.png)
