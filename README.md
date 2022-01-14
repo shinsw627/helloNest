@@ -15,5 +15,9 @@
 ### Class Validator
 ![image](https://user-images.githubusercontent.com/46738141/149394359-6edbf1c1-1b8e-403f-be6d-02fe77b82a68.png)
 
+### Class Validator를 활용한 dto validation
+![image](https://user-images.githubusercontent.com/46738141/149458101-6144485a-dca8-4578-8922-9968531645f5.png)
+class를 사용하므로 재사용성에 이점이 있다.
+
 ### dto aop
 ![Nest.js design pattern](https://user-images.githubusercontent.com/46738141/149457626-2605d845-37a4-4dd8-8ef2-cbee434138bc.png)
