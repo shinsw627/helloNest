@@ -29,6 +29,8 @@
 
 ### Repository pattern을 활용
 
+![image](https://user-images.githubusercontent.com/46738141/149608414-56b73743-b6d8-4b8a-9531-8decd300ccb5.png)
+
 
 ![image](https://user-images.githubusercontent.com/46738141/149536103-4dcd832c-93b6-4388-a558-4cd875248df5.png)
 
@@ -57,3 +59,9 @@ ViewModel이 여러 Repository를 공유하더라도 일관된 Interface를 통�
 (5) 객체 간의 결합도가 감소한다.
 
 (6) 어플리케이션의 전체적인 디자인이 바뀌더라도 적용할 수 있는 유연한 아키텍쳐이다.
+
+### Module forward reference를 활용한 모듈간 순환 종속성 해결
+![image](https://user-images.githubusercontent.com/46738141/149620910-3d6249fc-9327-4046-873e-ae0dff47c899.png)
+![image](https://user-images.githubusercontent.com/46738141/149620917-036f41d5-aee8-4a33-9605-72715d97b090.png)
+
+
