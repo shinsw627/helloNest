@@ -34,11 +34,11 @@
 
 ![image](https://user-images.githubusercontent.com/46738141/149536103-4dcd832c-93b6-4388-a558-4cd875248df5.png)
 
-비즈니스 로직은 프로그램의 핵심이 되는 요소이며, 비즈니스 로직을 잘 짜야 원하는 결과를 올바르게 도출할 수 있다. 이때 비즈니스 로직은 보통 데이터베이스나 웹서비스 등의 데이터 저장소에 접근하게 되는데 이 과정에서 여러 문제가 발생할 수 있다. 주로 중복되는 코드, 오류를 발생할 가능성이 있는 코드, 오타, 비즈니스 로직 테스트의 어려움 등이 있다.
+<h5>비즈니스 로직은 프로그램의 핵심이 되는 요소이며, 비즈니스 로직을 잘 짜야 원하는 결과를 올바르게 도출할 수 있다. 이때 비즈니스 로직은 보통 데이터베이스나 웹서비스 등의 데이터 저장소에 접근하게 되는데 이 과정에서 여러 문제가 발생할 수 있다. 주로 중복되는 코드, 오류를 발생할 가능성이 있는 코드, 오타, 비즈니스 로직 테스트의 어려움 등이 있다.</h5>
 
 ![image](https://user-images.githubusercontent.com/46738141/149536434-2f951a49-3e68-44e2-a9e4-2b33319b88be.png)
 
-repository pattern 사용 이유
+<h5>repository pattern 사용 이유
 (1) 데이터가 있는 여러 저장소(Local Data Source, Remote Data Source)를 추상화하여 중앙 집중 처리 방식을 구현할 수 있다.
 
 (2) 데이터를 사용하는 Domain에서는 비즈니스 로직에만 집중할 수 있다.
@@ -58,7 +58,7 @@ ViewModel이 여러 Repository를 공유하더라도 일관된 Interface를 통�
 
 (5) 객체 간의 결합도가 감소한다.
 
-(6) 어플리케이션의 전체적인 디자인이 바뀌더라도 적용할 수 있는 유연한 아키텍쳐이다.
+(6) 어플리케이션의 전체적인 디자인이 바뀌더라도 적용할 수 있는 유연한 아키텍쳐이다.</h5>
 
 ### Module forward reference를 활용한 모듈간 순환 종속성 해결
 ![image](https://user-images.githubusercontent.com/46738141/149620910-3d6249fc-9327-4046-873e-ae0dff47c899.png)
@@ -67,15 +67,15 @@ ViewModel이 여러 Repository를 공유하더라도 일관된 Interface를 통�
 ### Swagger 작성 및 express-basic-auth로 간단한 보안 적용
 ![image](https://user-images.githubusercontent.com/46738141/149714775-4c524943-bd35-49e4-bb19-ae199474fe47.png)
 ![image](https://user-images.githubusercontent.com/46738141/149715382-e0d2406a-bc3c-487e-94bb-3d410007d6fe.png)
-보안로그인화면 배포 후 다시 찍을 
+<h5>보안로그인화면 배포 후 다시 찍을 것</h5>
 
 ### 스키마에 모델이 등록되어 있지 않다는 에러 이슈
 ![image](https://user-images.githubusercontent.com/46738141/149809071-e0054e70-299a-486f-9f9d-3433b786a08b.png)
-populate 하는 과정에서
+<h5>populate 하는 과정에서</h5>
 ![image](https://user-images.githubusercontent.com/46738141/149808897-7543556b-89b0-4591-93b0-2e2785ac7a78.png)
-이런식으로 계속 나오며 막혀버리는 오류가 발생하였다.
+<h5>이런식으로 계속 나오며 막혀버리는 오류가 발생하였다.</h5>
 
-1시간 넘게 구글링을 하던 끝에 mongoose와 @nestjs/mongoose의 버젼을 낮추어서 해결하였다.
+<h5>1시간 넘게 구글링을 하던 끝에 mongoose와 @nestjs/mongoose의 버젼을 낮추어서 해결하였다.</h5>
 ![image](https://user-images.githubusercontent.com/46738141/149809593-eeb4f9a3-3c05-4666-af96-e7089c2bbe89.png)
 
-솔직히 아직까지는 모듈을 파헤쳐봐도 뭐가 뭔지 모르겠어서 원인파악이 힘들었다. 나중에 성장하게 되면 보이게 될지 궁금하다...
+<h5>솔직히 아직까지는 모듈을 파헤쳐봐도 뭐가 뭔지 모르겠어서 원인파악이 힘들었다. 나중에 성장하게 되면 보이게 될지 궁금하다...</h5>
