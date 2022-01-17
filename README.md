@@ -1,6 +1,6 @@
 # nest.js 연습용 프로젝트입니다.
 
-## todo 기술들 다시 정리하고 왜 이것들을 사용했는지 각각 적을 것.
+## todo 기술들 다시 정리하고 왜 이것들을 사용했는지 각각 적을 것. swagger 스샷 배포 후 수정할 것
 
 ### HttpExceptionFilter 를 활용한 error 처리
 ![http-exception.filter.ts](https://user-images.githubusercontent.com/46738141/149394900-3f80dd03-4b12-40cb-bd68-7a56fb0d5c8b.png)
@@ -64,4 +64,8 @@ ViewModel이 여러 Repository를 공유하더라도 일관된 Interface를 통�
 ![image](https://user-images.githubusercontent.com/46738141/149620910-3d6249fc-9327-4046-873e-ae0dff47c899.png)
 ![image](https://user-images.githubusercontent.com/46738141/149620917-036f41d5-aee8-4a33-9605-72715d97b090.png)
 
+### Swagger 작성 및 express-basic-auth로 간단한 보안 적용
+![image](https://user-images.githubusercontent.com/46738141/149714775-4c524943-bd35-49e4-bb19-ae199474fe47.png)
+![image](https://user-images.githubusercontent.com/46738141/149715382-e0d2406a-bc3c-487e-94bb-3d410007d6fe.png)
+보안로그인화면 배포 후 다시 찍을 
 
