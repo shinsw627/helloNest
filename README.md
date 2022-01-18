@@ -81,4 +81,42 @@ ViewModel이 여러 Repository를 공유하더라도 일관된 Interface를 통�
 
 ![image](https://user-images.githubusercontent.com/46738141/149809593-eeb4f9a3-3c05-4666-af96-e7089c2bbe89.png)
 
-<h5>솔직히 아직까지는 모듈을 파헤쳐봐도 뭐가 뭔지 모르겠어서 원인파악이 힘들었다. 나중에 성장하게 되면 보이게 될지 궁금하다...</h5>
+<h5>솔직히 아직까지는 모듈을 파헤쳐봐도 뭐가 뭔지 모르겠어서 원인파악이 힘들었다.</h5>
+
+
+## nest-multer-extended를 활용해 이미지 S3에 저장
+![image](https://user-images.githubusercontent.com/46738141/149960128-cab6cb7b-3cee-428f-b45a-a394e7f2cca7.png)
+
+## The bucket does not allow ACLs 에러 발생
+<h5>S3 bucket 스토리지에 이미지를 업로드 하는 것을 구현하던 중에
+The bucket does not allow ACLs 라는 오류가 발생하였다.</h5>
+![image](https://user-images.githubusercontent.com/46738141/149960750-70d0be87-c012-41da-ab50-b391bfbbe143.png)
+
+
+<h5>
+ACL이란
+
+Access List => 접근하는 것을 허용 또는 거부하는 접근제어 리스트 ACL을 통해 필터링 이라는 기능을 수행할 수 있는데 특정 주소를 가진 호스트의 접근을 막거나 특정 서비스를 차단하는 등의 여러 목적으로 사용될 수 있다.
+
+쉽게 설명해서 파티 초대장 리스트 같은 것이라 생각할 수 있다.
+
+예를 들어 파티를 할때 초대장을 지인들에게 나누어 주는데 초대장을 받은 사람은 파티에 들어올 수 있고, 받지 못한 사람은 들어올 수 없도록 하는 것이다. 초대 받은사람인지 아닌지를 확인하기 위해 만들어진 초청자 목록이 있는데 이 목록이 바로 ACL이라고 할 수 있다.</h5>
+출처 : https://net-gate.tistory.com/18
+![image](https://user-images.githubusercontent.com/46738141/149960595-efcbe152-3373-4f56-b0cc-6c5581f94137.png)
+
+
+<h5> S3의 권한 탭에서 밑으로 스크롤 하여</h5>
+![image](https://user-images.githubusercontent.com/46738141/149960573-b8e0ad12-2909-4f26-ba3e-968e2644ebd3.png)
+
+<h5>객체 소유권을 찾은 후에 편집에 들어가</h5>
+![image](https://user-images.githubusercontent.com/46738141/149960559-eba6b703-ca8a-448a-a6f6-3c29f902fa8c.png)
+
+<h5><h5>ACL 활성화됨을 체크 후에 밑에 !부분의 ACL이 복원된다는 것을 확인합니다. 까지 체크 한 후에 변경 사항 저장을 눌러주면 해결된다.</h5>
+![image](https://user-images.githubusercontent.com/46738141/149960538-628dd07b-902b-4f63-b32f-f6c8315fc7f9.png)
+
+
+<h5>콘솔로그에 이미지 업로드가 잘 되는 것을 확인하였고</h5>
+
+![image](https://user-images.githubusercontent.com/46738141/149960506-cdfca3b4-2469-4a75-83dd-d1852eaeeb84.png)
+
+<h5>이미지 또한 확인하였다.</h5>
