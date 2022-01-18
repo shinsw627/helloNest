@@ -36,8 +36,8 @@ export class CatsService {
   }
 
   //이미지 업로드
-  async uploadImg(cat: Cat, files: Express.Multer.File[]) {
-    const fileName = `cats/${files[0].filename}`;
+  async uploadImg(cat: Cat, file: any) {
+    const fileName = file.key;
 
     const newCat = await this.catsRepository.findByIdAndUpdateImg(
       cat.id,
