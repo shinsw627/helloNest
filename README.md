@@ -88,13 +88,12 @@ ViewModel이 여러 Repository를 공유하더라도 일관된 Interface를 통�
 ![image](https://user-images.githubusercontent.com/46738141/149960128-cab6cb7b-3cee-428f-b45a-a394e7f2cca7.png)
 
 ## The bucket does not allow ACLs 에러 발생
-<h5>S3 bucket 스토리지에 이미지를 업로드 하는 것을 구현하던 중에
+<h5> S3 bucket 스토리지에 이미지를 업로드 하는 것을 구현하던 중에
 The bucket does not allow ACLs 라는 오류가 발생하였다.</h5>
 ![image](https://user-images.githubusercontent.com/46738141/149960750-70d0be87-c012-41da-ab50-b391bfbbe143.png)
 
 
-<h5>
-ACL이란
+<h5> ACL이란
 
 Access List => 접근하는 것을 허용 또는 거부하는 접근제어 리스트 ACL을 통해 필터링 이라는 기능을 수행할 수 있는데 특정 주소를 가진 호스트의 접근을 막거나 특정 서비스를 차단하는 등의 여러 목적으로 사용될 수 있다.
 
@@ -102,6 +101,7 @@ Access List => 접근하는 것을 허용 또는 거부하는 접근제어 리�
 
 예를 들어 파티를 할때 초대장을 지인들에게 나누어 주는데 초대장을 받은 사람은 파티에 들어올 수 있고, 받지 못한 사람은 들어올 수 없도록 하는 것이다. 초대 받은사람인지 아닌지를 확인하기 위해 만들어진 초청자 목록이 있는데 이 목록이 바로 ACL이라고 할 수 있다.</h5>
 출처 : https://net-gate.tistory.com/18
+
 ![image](https://user-images.githubusercontent.com/46738141/149960595-efcbe152-3373-4f56-b0cc-6c5581f94137.png)
 
 
