@@ -123,3 +123,7 @@ Access List => 접근하는 것을 허용 또는 거부하는 접근제어 리�
 ![image](https://user-images.githubusercontent.com/46738141/149960506-cdfca3b4-2469-4a75-83dd-d1852eaeeb84.png)
 
 <h5>이미지 또한 확인하였다.</h5>
+
+## gitignore에 .env가 없다는 것을 발견
+nest.js에서 기본적으로 gitignore에 .env가 포함되어 있을줄 알았는데 안되어있어서 깜작 놀랬다...
+메일로 관련한 내용이 날아와서 급하게 s3 access키를 비활성화하고 새로 받았다. 정말 간담이 서늘했다.
