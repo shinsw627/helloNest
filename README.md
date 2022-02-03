@@ -16,6 +16,7 @@
 
 ## Class Validator
 ![image](https://user-images.githubusercontent.com/46738141/149461726-36676a3b-4c93-49b6-b4aa-a7c12f35e7c3.png)
+<h5>pipe를 활용한 class validator를 사용하였다. </h5>
 
 ## Class Validator를 활용한 dto validation
 ![image](https://user-images.githubusercontent.com/46738141/149458101-6144485a-dca8-4578-8922-9968531645f5.png)
@@ -123,3 +124,8 @@ Access List => 접근하는 것을 허용 또는 거부하는 접근제어 리�
 ![image](https://user-images.githubusercontent.com/46738141/149960506-cdfca3b4-2469-4a75-83dd-d1852eaeeb84.png)
 
 <h5>이미지 또한 확인하였다.</h5>
+
+## gitignore에 .env가 없다는 것을 발견
+nest.js에서 기본적으로 gitignore에 .env가 포함되어 있을줄 알았는데 안되어있어서 깜작 놀랬다...
+메일로 관련한 내용이 날아와서 급하게 s3 access키를 비활성화하고 새로 받았다. 몽고디비 아틀라스도 전부 바꿨다... 정말 간담이 서늘했다.
+블로그 정리 : https://velog.io/@shinsw627/.env%EC%9D%98-%EB%85%B8%EC%B6%9C-%EC%82%AC%EA%B1%B4
