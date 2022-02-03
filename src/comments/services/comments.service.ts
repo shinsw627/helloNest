@@ -21,9 +21,30 @@ export class CommentsService {
     }
   }
 
-  async createComment(id: string, comments: CommentsCreateDto) {
-    return;
+  async createComment(id: string, commentData: CommentsCreateDto) {
+    try {
+      const targetCat = await this.catsRepository.findCatByIdWithoutPassword(
+        id,
+      );
+      const { author, contents } = commentData;
+      const validatedAuthor =
+        await this.catsRepository.findCatByIdWithoutPassword(author);
+      const newComment = new this.commentsModel({
+        author: validatedAuthor._id,
+        contents,
+        info: targetCat._id,
+      });
+      return await newComment.save();
+    } catch (error) {
+      throw new BadRequestException(error.message);
+    }
   }
 
-  async plusLike(id: string) {}
+  async plusLike(id: string) {
+    try {
+      const comment = await this.commentsModel.findById(id);
+      comment.likeCount += 1;
+      return await comment.save();
+    } catch (error) {}
+  }
 }

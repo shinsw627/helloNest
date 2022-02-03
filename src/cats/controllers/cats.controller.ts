@@ -78,7 +78,10 @@ export class CatsController {
   )
   @UseGuards(JwtAuthGuard)
   @Post('upload')
-  uploadCatImg(@UploadedFile() file: any, @CurrentUser() cat: Cat) {
+  uploadCatImg(
+    @UploadedFile() file: Express.Multer.File,
+    @CurrentUser() cat: Cat,
+  ) {
     console.log(file);
     return this.catsService.uploadImg(cat, file);
   }

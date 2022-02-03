@@ -27,6 +27,6 @@ export class AppModule implements NestModule {
 
   configure(consumer: MiddlewareConsumer) {
     consumer.apply(LoggerMiddleware).forRoutes('*');
-    mongoose.set('debug', true);
+    mongoose.set('debug', this.isDev);
   }
 }

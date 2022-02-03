@@ -1,4 +1,5 @@
 import {
+  ConflictException,
   HttpException,
   Injectable,
   UnauthorizedException,
@@ -20,8 +21,8 @@ export class CatsService {
     const isCatExist = await this.catsRepository.existsByEmail(email);
 
     if (isCatExist) {
-      // throw new HttpException('해당하는 고양이는 이미 존재합니다.', 403)
-      throw new UnauthorizedException('해당하는 고양이는 이미 존재합니다.');
+      // throw new HttpException('해당하는 고양이는 이미 존재합니다.', 403);
+      throw new ConflictException('해당하는 고양이는 이미 존재합니다.');
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
