@@ -59,7 +59,7 @@ export class CatsController {
     type: ReadOnlyCatDto,
   })
   @ApiOperation({ summary: '회원가입' })
-  @Post()
+  @Post('signup')
   async signUp(@Body() body: CatRequestDto) {
     return await this.catsService.signUp(body);
   }
