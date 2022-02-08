@@ -6,6 +6,8 @@
 ![http-exception.filter.ts](https://user-images.githubusercontent.com/46738141/149394900-3f80dd03-4b12-40cb-bd68-7a56fb0d5c8b.png)
 
 ## pipe를 이용한 요청 데이터 유효성 검사 및 변환 수행
+![image](https://user-images.githubusercontent.com/46738141/152974309-0f74d881-dbe4-4abb-b5d4-7428f9882b06.png)
+
 
 ## request의 lifecycle
 ![image](https://user-images.githubusercontent.com/46738141/149090415-b7ddcef3-1175-4de3-ad0a-c3f94cc6a863.png)
