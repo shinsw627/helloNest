@@ -7,6 +7,7 @@
 
 ## pipe를 이용한 요청 데이터 유효성 검사 및 변환 수행
 ![image](https://user-images.githubusercontent.com/46738141/152974309-0f74d881-dbe4-4abb-b5d4-7428f9882b06.png)
+![image](https://user-images.githubusercontent.com/46738141/152974532-6f91cc01-3fe2-457a-aee9-26a391ab00ff.png)
 
 
 ## request의 lifecycle
