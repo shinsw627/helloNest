@@ -20,9 +20,6 @@
 ## Class Validator를 활용한 dto validation
 ![image](https://user-images.githubusercontent.com/46738141/149458101-6144485a-dca8-4578-8922-9968531645f5.png)
 
-## dto aop
-![Nest.js design pattern](https://user-images.githubusercontent.com/46738141/149457626-2605d845-37a4-4dd8-8ef2-cbee434138bc.png)
-
 ## schema class를 활용하여 재사용성 확보 및 PickType을 이용한 원하는 정보만을 extends 하도록 구현
 ![image](https://user-images.githubusercontent.com/46738141/149515502-883b42f9-f781-43b3-9034-99d4a6d7150f.png)
 
