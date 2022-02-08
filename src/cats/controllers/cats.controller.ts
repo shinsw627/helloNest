@@ -86,6 +86,12 @@ export class CatsController {
     return this.catsService.uploadImg(cat, file);
   }
 
+  @ApiOperation({ summary: '특정 고양이 조회' })
+  @Get(':id')
+  getOneCat(@Param('id', ParseIntPipe, PositiveIntPipe) param: number) {
+    return this.catsService.getAllCat();
+  }
+
   @ApiOperation({ summary: '모든 고양이 조회' })
   @Get('all')
   getAllCat() {
