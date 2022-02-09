@@ -11,6 +11,10 @@
 ## interceptors를 이용한 success.interceptor 구현
 ![image](https://user-images.githubusercontent.com/46738141/149394499-ffe348ae-101d-4e3d-a2df-7da466f71eab.png)
 
+## Guard를 통한 Authorization 구현
+![jwt.guard.ts](https://user-images.githubusercontent.com/46738141/153185150-111c67f4-9aa7-417b-bcbc-6447f82bcbee.png)
+![jwt.strategy.ts](https://user-images.githubusercontent.com/46738141/153185275-3bcd3843-a187-48be-9a7c-1795bef905a2.png)
+
 
 ## Class Validator를 활용한 dto validation
 ![image](https://user-images.githubusercontent.com/46738141/149458101-6144485a-dca8-4578-8922-9968531645f5.png)
