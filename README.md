@@ -59,10 +59,10 @@ ViewModel이 여러 Repository를 공유하더라도 일관된 Interface를 통�
 ![image](https://user-images.githubusercontent.com/46738141/153183736-8f20b5d4-ebb3-4e54-9d58-5b6ab904f70a.png)
 ![image](https://user-images.githubusercontent.com/46738141/153184349-39af02bc-5ad7-421e-8a5e-487be44d3ae8.png)
 ![image](https://user-images.githubusercontent.com/46738141/153184484-0b847fbc-5a03-4c58-9391-37f04f1eb8dd.png)
-
+<br>
+간단한 보안 적용
 ![image](https://user-images.githubusercontent.com/46738141/149714775-4c524943-bd35-49e4-bb19-ae199474fe47.png)
 ![image](https://user-images.githubusercontent.com/46738141/149715382-e0d2406a-bc3c-487e-94bb-3d410007d6fe.png)
-<h5>보안로그인화면 배포 후 다시 찍을 것</h5>
 
 ## 스키마에 모델이 등록되어 있지 않다는 에러 이슈
 ![image](https://user-images.githubusercontent.com/46738141/149809071-e0054e70-299a-486f-9f9d-3433b786a08b.png)
